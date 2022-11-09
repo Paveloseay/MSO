@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mso:block/maplelog",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "mso:block/maplelog"
+    },
+    "axis=z": {
+      "model": "mso:block/maplelog",
+      "x": 90
+    }
+  }
+}

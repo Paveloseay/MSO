@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "mso:blocks/mossy_runestone",
+    "top": "mso:blocks/mossy_runestone",
+    "side": "mso:blocks/mossy_runestone"
+  }
+}

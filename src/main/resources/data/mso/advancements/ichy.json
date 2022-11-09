@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mso:thorns"
+    },
+    "title": {
+      "translate": "advancements.ichy.title"
+    },
+    "description": {
+      "translate": "advancements.ichy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ichy": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "mso:moisty"
+}

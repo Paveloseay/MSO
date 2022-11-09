@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ivy_inside",
+        "1": "jungle_leaves",
+        "2": "junglelog_side"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "mso:custom/waterfall",
+  "textures": {
+    "0": "mso:blocks/waterfall",
+    "1": "mso:blocks/waterfall1",
+    "2": "mso:blocks/waterfall2",
+    "missing": "mso:blocks/",
+    "particle": "mso:items/platinium"
+  }
+}

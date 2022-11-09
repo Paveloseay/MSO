@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "mso:block/minersheaven_portal_ew"
+    },
+    "axis=x": {
+      "model": "mso:block/minersheaven_portal_ns"
+    }
+  }
+}

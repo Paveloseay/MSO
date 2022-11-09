@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mossy_runestone_bricks",
+        "1": "2",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

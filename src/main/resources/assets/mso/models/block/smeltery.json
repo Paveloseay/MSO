@@ -1,0 +1,12 @@
+{
+  "parent": "mso:custom/smeltery",
+  "textures": {
+    "all": "mso:blocks/pch",
+    "particle": "mso:blocks/pch",
+    "0": "mso:blocks/1",
+    "1": "mso:blocks/4",
+    "2": "mso:blocks/2",
+    "6": "mso:blocks/8",
+    "9": "mso:blocks/5"
+  }
+}

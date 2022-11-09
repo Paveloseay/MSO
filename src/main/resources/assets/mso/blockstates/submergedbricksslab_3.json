@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mso:block/submergedbricksslab_3"
+    },
+    "type=top": {
+      "model": "mso:block/submergedbricksslab_3_top"
+    },
+    "type=double": {
+      "model": "mso:block/submergedbricksslab_3_full"
+    }
+  }
+}

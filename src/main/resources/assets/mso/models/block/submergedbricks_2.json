@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mso:blocks/submergedbricks1",
+    "up": "mso:blocks/submergedbricks1",
+    "north": "mso:blocks/submergedbricks1",
+    "east": "mso:blocks/submergedbricks1",
+    "south": "mso:blocks/submergedbricks1",
+    "west": "mso:blocks/submergedbricks1",
+    "particle": "mso:blocks/submergedbricks1"
+  }
+}

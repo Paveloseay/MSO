@@ -1,0 +1,30 @@
+{
+  "_fv": 28,
+  "_type": "structure",
+  "definition": {
+    "structure": "lootjungleruin",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 50000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 3,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -1,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:Minersheaven"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:Weedgras"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Ivyjungle"
+      }
+    ],
+    "ignoreBlocks": "AIR"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mso:crass_sand"
+    },
+    {
+      "item": "mso:crass_sand"
+    },
+    {
+      "item": "mso:crass_sand"
+    },
+    {
+      "item": "mso:crass_sand"
+    }
+  ],
+  "result": {
+    "item": "mso:crass_rock",
+    "count": 1
+  }
+}

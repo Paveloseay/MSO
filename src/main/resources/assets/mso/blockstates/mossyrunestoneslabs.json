@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mso:block/mossyrunestoneslabs"
+    },
+    "type=top": {
+      "model": "mso:block/mossyrunestoneslabs_top"
+    },
+    "type=double": {
+      "model": "mso:block/mossyrunestoneslabs_full"
+    }
+  }
+}

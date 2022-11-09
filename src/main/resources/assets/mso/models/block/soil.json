@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mso:blocks/soil",
+    "up": "mso:blocks/soil",
+    "north": "mso:blocks/soil",
+    "east": "mso:blocks/soil",
+    "south": "mso:blocks/soil",
+    "west": "mso:blocks/soil",
+    "particle": "mso:blocks/soil"
+  }
+}

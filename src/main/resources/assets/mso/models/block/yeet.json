@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "mso:blocks/yeet",
+    "particle": "mso:blocks/yeet"
+  }
+}

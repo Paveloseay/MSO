@@ -1,0 +1,65 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": true,
+    "textureBody": "thorns",
+    "enableLeggings": false,
+    "textureLeggings": "pch",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onBodyTick": {
+      "name": "SavestaBodyTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Msoarmors"
+    },
+    "armorTextureFile": "thermosteel_chestplate_",
+    "helmetName": "Thermosteal Helmet",
+    "bodyName": "Assasin Vest",
+    "leggingsName": "Thermosteal Greaves",
+    "bootsName": "Thermosteal Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [
+      "§9Rarity: §5§lEpic",
+      "§9Type: §f§lArmor",
+      "§9Perk: §7§l[None]"
+    ],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Modelomaga",
+    "bodyModelPart": "bone",
+    "armsModelPartL": "left",
+    "armsModelPartR": "right",
+    "bodyModelTexture": "savesta.png",
+    "leggingsModelName": "Modelthermostealleggings",
+    "leggingsModelPartL": "bone",
+    "leggingsModelPartR": "bone",
+    "leggingsModelTexture": "thermosteal_leggings.png",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": false,
+    "maxDamage": 384,
+    "damageValueHelmet": 0,
+    "damageValueBody": 10,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 0,
+    "enchantability": 0,
+    "toughness": 1.0,
+    "knockbackResistance": 0.05,
+    "equipSound": {
+      "value": "item.armor.equip_leather"
+    },
+    "repairItems": []
+  }
+}

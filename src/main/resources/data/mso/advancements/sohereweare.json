@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "mso:textures/background.png",
+    "icon": {
+      "item": "mso:weed_grass"
+    },
+    "title": {
+      "translate": "advancements.sohereweare.title"
+    },
+    "description": {
+      "translate": "advancements.sohereweare.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sohereweare": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "mso:minersheaven"
+      }
+    }
+  }
+}

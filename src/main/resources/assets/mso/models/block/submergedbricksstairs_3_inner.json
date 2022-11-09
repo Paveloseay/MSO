@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "mso:blocks/submergedbricks2",
+    "top": "mso:blocks/submergedbricks2",
+    "side": "mso:blocks/submergedbricks2"
+  }
+}

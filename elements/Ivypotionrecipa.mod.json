@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "CUSTOM:Fiercepotion"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:Poisonivy"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:Ivypotion"
+    },
+    "name": "ivypotionrecipa",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mso:blocks/mossy_runestone",
+    "up": "mso:blocks/mossy_runestone",
+    "north": "mso:blocks/mossy_runestone",
+    "east": "mso:blocks/mossy_runestone",
+    "south": "mso:blocks/mossy_runestone",
+    "west": "mso:blocks/mossy_runestone",
+    "particle": "mso:blocks/mossy_runestone"
+  }
+}

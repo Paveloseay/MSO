@@ -1,0 +1,40 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "spearrange",
+    "customModelName": "shortswordslash:default",
+    "name": "slash",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 1,
+    "actionSound": {
+      "value": "item.trident.riptide_2"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 5.0,
+    "bulletDamage": 0.15,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:SWORDSLASH"
+    },
+    "bulletModel": "Modelshortswordslash",
+    "customBulletModelTexture": "slash.png",
+    "onBulletFlyingTick": {
+      "name": "SWORDSLASHWhileProjectileFlyingTick"
+    }
+  }
+}

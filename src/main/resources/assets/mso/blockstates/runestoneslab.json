@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mso:block/runestoneslab"
+    },
+    "type=top": {
+      "model": "mso:block/runestoneslab_top"
+    },
+    "type=double": {
+      "model": "mso:block/runestoneslab_full"
+    }
+  }
+}

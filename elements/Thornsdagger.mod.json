@@ -1,0 +1,38 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "thorns",
+    "customModelName": "ivydagger:default",
+    "name": "Acid Dagger",
+    "specialInfo": [
+      "§9Rarity: §b§lRare",
+      "§9Type: §a§lDagger",
+      "§9Perk: §a§l[Poisonous Vine]",
+      "§2Poisons the enemy"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Msotools"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 2.4,
+    "enchantability": 0,
+    "damageVsEntity": 3.0,
+    "usageCount": 384,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "ThornsdaggerRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "ThornsdaggerLivingEntityIsHitWithTool"
+    }
+  }
+}

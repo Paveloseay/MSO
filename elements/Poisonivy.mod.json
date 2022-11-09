@@ -1,0 +1,96 @@
+{
+  "_fv": 28,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "ivyitem",
+    "textureBottom": "",
+    "customModelName": "ivy:default",
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "staticPlantGenerationType": "Flower",
+    "suspiciousStewEffect": "CUSTOM:Poisonresistance",
+    "suspiciousStewDuration": 50,
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "doublePlantGenerationType": "Flower",
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 2.0,
+        "my": 0.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 6.0,
+        "Mz": 14.0,
+        "subtract": false
+      }
+    ],
+    "name": "Poison ivy",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Msoplants"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": "CUSTOM:Poisonivy"
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 0.5,
+    "speedFactor": 0.5,
+    "canBePlacedOn": [],
+    "frequencyOnChunks": 2,
+    "spawnWorldTypes": [
+      "CUSTOM:Minersheaven"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Ivyjungle"
+      }
+    ],
+    "patchSize": 4,
+    "generateAtAnyHeight": false,
+    "onEntityCollides": {
+      "name": "Poisonivy_poison"
+    }
+  }
+}

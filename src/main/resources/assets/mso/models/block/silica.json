@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mso:blocks/silica",
+    "up": "mso:blocks/silica",
+    "north": "mso:blocks/silica",
+    "east": "mso:blocks/silica",
+    "south": "mso:blocks/silica",
+    "west": "mso:blocks/silica",
+    "particle": "mso:blocks/silica"
+  }
+}

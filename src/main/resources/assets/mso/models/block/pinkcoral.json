@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mso:blocks/unknown",
+    "up": "mso:blocks/unknown",
+    "north": "mso:blocks/unknown",
+    "east": "mso:blocks/unknown",
+    "south": "mso:blocks/unknown",
+    "west": "mso:blocks/unknown",
+    "particle": "mso:blocks/unknown"
+  }
+}

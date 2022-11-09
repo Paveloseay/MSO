@@ -1,0 +1,66 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": true,
+    "textureBody": "thorns",
+    "enableLeggings": false,
+    "textureLeggings": "pch",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onBodyTick": {
+      "name": "ArcherBodyTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Msoarmors"
+    },
+    "armorTextureFile": "thermosteel_chestplate_",
+    "helmetName": "Thermosteal Helmet",
+    "bodyName": "Archer Equipment",
+    "leggingsName": "Thermosteal Greaves",
+    "bootsName": "Thermosteal Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [
+      "§9Rarity: §5§lEpic",
+      "§9Type: §f§lArmor",
+      "§9Perk: §e§l[Distance concentration]",
+      "§6 improves bows performance"
+    ],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Modeloh",
+    "bodyModelPart": "bone",
+    "armsModelPartL": "left",
+    "armsModelPartR": "right",
+    "bodyModelTexture": "archer_equipment.png",
+    "leggingsModelName": "Modelthermostealleggings",
+    "leggingsModelPartL": "bone",
+    "leggingsModelPartR": "bone",
+    "leggingsModelTexture": "thermosteal_leggings.png",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": false,
+    "maxDamage": 96,
+    "damageValueHelmet": 0,
+    "damageValueBody": 2,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 0,
+    "enchantability": 0,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_leather"
+    },
+    "repairItems": []
+  }
+}

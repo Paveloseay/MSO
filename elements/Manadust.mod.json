@@ -1,0 +1,50 @@
+{
+  "_fv": 28,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "manadust",
+    "customModelName": "Normal",
+    "name": "Mana dust",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:Msoitems"
+    },
+    "stackSize": 16,
+    "enchantability": 0,
+    "useDuration": 15,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§9Rarity: §b§lRare",
+      "§9Type: §a§lCrafting material",
+      "§5A mix of corals and water that§l can be used to craft §b§lmana potions"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "ManapotionPlayerFinishesUsingItem"
+    },
+    "hasDispenseBehavior": false,
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatResultItem": {
+      "value": "Items.GLASS_BOTTLE"
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "drink"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mso:blocks/crass_sand_top",
+    "up": "mso:blocks/crass_sand_top",
+    "north": "mso:blocks/crass_sand",
+    "east": "mso:blocks/crass_sand",
+    "south": "mso:blocks/crass_sand",
+    "west": "mso:blocks/crass_sand",
+    "particle": "mso:blocks/crass_sand_top"
+  }
+}

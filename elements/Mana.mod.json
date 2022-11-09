@@ -1,0 +1,548 @@
+{
+  "_fv": 28,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "manabarempty.png",
+          "use1Xscale": false,
+          "name": "manabarempty.png",
+          "x": 113,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M1"
+          },
+          "name": "manablockhalf.png",
+          "x": 114,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M3"
+          },
+          "name": "manablockhalf.png",
+          "x": 123,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M5"
+          },
+          "name": "manablockhalf.png",
+          "x": 134,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M11"
+          },
+          "name": "manablockhalf.png",
+          "x": 164,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M7"
+          },
+          "name": "manablockhalf.png",
+          "x": 144,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M9"
+          },
+          "name": "manablockhalf.png",
+          "x": 154,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M4"
+          },
+          "name": "manablockfill.png",
+          "x": 124,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M6"
+          },
+          "name": "manablockfill.png",
+          "x": 134,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M8"
+          },
+          "name": "manablockfill.png",
+          "x": 144,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M10"
+          },
+          "name": "manablockfill.png",
+          "x": 154,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M12"
+          },
+          "name": "manablockfill.png",
+          "x": 164,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M2"
+          },
+          "name": "manablockfill.png",
+          "x": 114,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M13"
+          },
+          "name": "manablockhalf.png",
+          "x": 174,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M14"
+          },
+          "name": "manablockfill.png",
+          "x": 174,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M15"
+          },
+          "name": "manablockhalf.png",
+          "x": 184,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M16"
+          },
+          "name": "manablockfill.png",
+          "x": 184,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M17"
+          },
+          "name": "manablockhalf.png",
+          "x": 194,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M18"
+          },
+          "name": "manablockfill.png",
+          "x": 194,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M19"
+          },
+          "name": "manablockhalf.png",
+          "x": 204,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M20"
+          },
+          "name": "manablockfill.png",
+          "x": 204,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M21"
+          },
+          "name": "manablockhalf.png",
+          "x": 214,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M22"
+          },
+          "name": "manablockfill.png",
+          "x": 214,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M23"
+          },
+          "name": "manablockhalf.png",
+          "x": 224,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M24"
+          },
+          "name": "manablockfill.png",
+          "x": 224,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M25"
+          },
+          "name": "manablockhalf.png",
+          "x": 234,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M26"
+          },
+          "name": "manablockfill.png",
+          "x": 234,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M27"
+          },
+          "name": "manablockhalf.png",
+          "x": 244,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M28"
+          },
+          "name": "manablockfill.png",
+          "x": 244,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M29"
+          },
+          "name": "manablockhalf.png",
+          "x": 254,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M30"
+          },
+          "name": "manablockfill.png",
+          "x": 254,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M31"
+          },
+          "name": "manablockhalf.png",
+          "x": 264,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M32"
+          },
+          "name": "manablockfill.png",
+          "x": 264,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M33"
+          },
+          "name": "manablockhalf.png",
+          "x": 274,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M34"
+          },
+          "name": "manablockfill.png",
+          "x": 274,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M35"
+          },
+          "name": "manablockhalf.png",
+          "x": 284,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M36"
+          },
+          "name": "manablockfill.png",
+          "x": 284,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M37"
+          },
+          "name": "manablockhalf.png",
+          "x": 294,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M38"
+          },
+          "name": "manablockfill.png",
+          "x": 294,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockhalf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M39"
+          },
+          "name": "manablockhalf.png",
+          "x": 304,
+          "y": 235
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manablockfill.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M40"
+          },
+          "name": "manablockfill.png",
+          "x": 304,
+          "y": 235
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

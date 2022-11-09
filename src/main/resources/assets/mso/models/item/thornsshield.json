@@ -1,0 +1,8 @@
+{
+  "parent": "mso:custom/thornsshield",
+  "textures": {
+    "0": "mso:blocks/rootedplanls",
+    "1": "mso:blocks/junglelog_side",
+    "particle": "mso:items/thorns"
+  }
+}

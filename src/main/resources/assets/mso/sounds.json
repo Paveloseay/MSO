@@ -1,0 +1,42 @@
+{
+  "small_wastelander_hurt": {
+    "category": "voice",
+    "subtitle": "subtitles.small_wastelander_hurt",
+    "sounds": [
+      {
+        "name": "mso:record1_online-audio-converter.com",
+        "stream": false
+      }
+    ]
+  },
+  "small_wastelander_live": {
+    "category": "hostile",
+    "subtitle": "subtitles.small_wastelander_live",
+    "sounds": [
+      {
+        "name": "mso:record1_online-audio-converter.com",
+        "stream": false
+      }
+    ]
+  },
+  "cleanse": {
+    "category": "neutral",
+    "subtitle": "subtitles.cleanse",
+    "sounds": [
+      {
+        "name": "mso:skill_spell_cleanse_01_73",
+        "stream": false
+      }
+    ]
+  },
+  "jungol": {
+    "category": "music",
+    "subtitle": "subtitles.jungol",
+    "sounds": [
+      {
+        "name": "mso:cinematic-documentary-ambient-115668",
+        "stream": true
+      }
+    ]
+  }
+}

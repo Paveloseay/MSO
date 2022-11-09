@@ -1,0 +1,8 @@
+{
+  "parent": "mso:custom/thorns",
+  "textures": {
+    "all": "mso:blocks/junglelog_side",
+    "particle": "mso:blocks/junglelog_side",
+    "0": "mso:blocks/junglelog_side"
+  }
+}

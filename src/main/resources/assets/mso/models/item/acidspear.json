@@ -1,0 +1,9 @@
+{
+  "parent": "mso:custom/ivyspear",
+  "textures": {
+    "0": "mso:blocks/ivy_inside",
+    "1": "mso:blocks/jungle_leaves",
+    "2": "mso:blocks/junglelog_side",
+    "particle": "mso:items/thorns"
+  }
+}

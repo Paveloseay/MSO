@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mso:blocks/runestone",
+    "up": "mso:blocks/runestone",
+    "north": "mso:blocks/runestone",
+    "east": "mso:blocks/runestone",
+    "south": "mso:blocks/runestone",
+    "west": "mso:blocks/runestone",
+    "particle": "mso:blocks/runestone"
+  }
+}

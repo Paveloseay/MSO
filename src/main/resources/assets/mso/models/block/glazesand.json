@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mso:blocks/glazesandtop",
+    "up": "mso:blocks/glazesandtop",
+    "north": "mso:blocks/glazesandtop",
+    "east": "mso:blocks/glazesandtop",
+    "south": "mso:blocks/glazesandtop",
+    "west": "mso:blocks/glazesandtop",
+    "particle": "mso:blocks/glazesandtop"
+  }
+}

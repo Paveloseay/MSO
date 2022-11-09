@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "waterfall",
+        "1": "waterfall1",
+        "2": "waterfall2",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

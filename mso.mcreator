@@ -1,0 +1,3244 @@
+{
+  "mod_elements": [
+    {
+      "name": "Msoblocks",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "msoblocks",
+      "path": "~/pre-endgame/blocks"
+    },
+    {
+      "name": "Smelterygui_tick",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelterygui_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/pre-endgame/blocks/functional/smeltery"
+    },
+    {
+      "name": "Smeltery",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smeltery",
+      "path": "~/pre-endgame/blocks/functional/smeltery"
+    },
+    {
+      "name": "Takefinalslot",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "takefinalslot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/pre-endgame/blocks/functional/smeltery"
+    },
+    {
+      "name": "Smelterygui",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelterygui",
+      "path": "~/pre-endgame/blocks/functional/smeltery"
+    },
+    {
+      "name": "Ironrecipe1",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironrecipe_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/pre-endgame/blocks/functional/smeltery"
+    },
+    {
+      "name": "Msoitems",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "msoitems",
+      "path": "~/pre-endgame/items"
+    },
+    {
+      "name": "Compactedcoal",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compacted_coal",
+      "path": "~/pre-endgame/items/not-functional"
+    },
+    {
+      "name": "Scrap",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrap",
+      "path": "~/pre-endgame/items/not-functional"
+    },
+    {
+      "name": "Crasssand",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crass_sand",
+      "path": "~/pre-endgame/blocks/not_funtional"
+    },
+    {
+      "name": "Crassrock",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crass_rock",
+      "path": "~/pre-endgame/blocks/not_funtional"
+    },
+    {
+      "name": "Crassdesert",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crassdesert",
+      "path": "~/pre-endgame/biomes"
+    },
+    {
+      "name": "DryGrass",
+      "type": "plant",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_grass",
+      "path": "~/endgame/plants"
+    },
+    {
+      "name": "Msoplants",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "msoplants",
+      "path": "~/endgame/plants"
+    },
+    {
+      "name": "Steelingot",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "path": "~/pre-endgame/items/not-functional"
+    },
+    {
+      "name": "Crasssandtstone",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crasssandtstone",
+      "path": "~/pre-endgame/blocks/recipes"
+    },
+    {
+      "name": "Platiniumore",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_platinum0_0",
+      "path": "~/pre-endgame/blocks/not_funtional"
+    },
+    {
+      "name": "Rawplatinium",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_platinium",
+      "path": "~/pre-endgame/items/not-functional"
+    },
+    {
+      "name": "Platiniumingot",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_ingot",
+      "path": "~/pre-endgame/items/not-functional"
+    },
+    {
+      "name": "Rawcopper",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_copper",
+      "path": "~/pre-endgame/items/not-functional"
+    },
+    {
+      "name": "Copperingot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppe_rbar",
+      "path": "~/pre-endgame/items/not-functional"
+    },
+    {
+      "name": "Copperore",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ore",
+      "path": "~/pre-endgame/blocks/not_funtional"
+    },
+    {
+      "name": "CleanseOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleanse_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Cleanse",
+      "type": "potioneffect",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleanse",
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Copperoreloot",
+      "type": "loottable",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperoreloot",
+      "path": "~/pre-endgame/blocks/not_funtional"
+    },
+    {
+      "name": "Platiniumoreloot",
+      "type": "loottable",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platiniumoreloot",
+      "path": "~/pre-endgame/blocks/not_funtional"
+    },
+    {
+      "name": "Standardsteel",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "standardsteel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/pre-endgame/blocks/functional/smeltery"
+    },
+    {
+      "name": "Fusedust",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusedust",
+      "path": "~/pre-endgame/items/not-functional"
+    },
+    {
+      "name": "Standardfusedust",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "standardfusedust",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/pre-endgame/blocks/functional/smeltery"
+    },
+    {
+      "name": "Silica",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silica",
+      "path": "~/pre-endgame/blocks/not_funtional"
+    },
+    {
+      "name": "Standardsilica",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "standardsilica",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/pre-endgame/blocks/functional/smeltery"
+    },
+    {
+      "name": "Minersheaven",
+      "type": "dimension",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minersheaven",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/endgame"
+    },
+    {
+      "name": "Advancedsmelteryblueprint",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advancedsmelteryblueprint",
+      "path": "~/pre-endgame/items/blueprints"
+    },
+    {
+      "name": "Smelteryrecipa",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelteryrecipa",
+      "path": "~/pre-endgame/blocks/functional/smeltery"
+    },
+    {
+      "name": "Smallwastelander",
+      "type": "livingentity",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_wastelander",
+      "path": "~/pre-endgame/entities"
+    },
+    {
+      "name": "Smallwastelanderloot",
+      "type": "loottable",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallwastelanderloot",
+      "path": "~/pre-endgame/entities"
+    },
+    {
+      "name": "Mana",
+      "type": "overlay",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana",
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "Runestone",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runestone",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Soil",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soil",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Weedgras",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_grass",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Weedplains",
+      "type": "biome",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weedplains",
+      "path": "~/endgame/biomes"
+    },
+    {
+      "name": "Maplelog",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maplelog",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "FireshieldActiveTickCondition",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireshield_active_tick_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Fireshield",
+      "type": "potioneffect",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireshield",
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Junglelog",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junglelog",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Ivyleaves",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ivyleaves",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Ivyjungle",
+      "type": "biome",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ivyjungle",
+      "path": "~/endgame/biomes"
+    },
+    {
+      "name": "Mud",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "IvyTree",
+      "type": "structure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ivy_tree",
+      "path": "~/endgame/structures"
+    },
+    {
+      "name": "Thorns",
+      "type": "plant",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorns",
+      "path": "~/endgame/plants"
+    },
+    {
+      "name": "Thorns_damage",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorns_damage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/plants"
+    },
+    {
+      "name": "Poisonresistance",
+      "type": "potioneffect",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonresistance",
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "PoisonresistanceOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonresistance_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Ivypotion_drink",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ivypotion_drink",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Ivypotion",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ivypotion",
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Potions",
+      "type": "tab",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potions",
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Ivypotionrecipa",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ivypotionrecipa",
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Poisonivy",
+      "type": "plant",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonivy",
+      "path": "~/endgame/plants"
+    },
+    {
+      "name": "Poisonivy_poison",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonivy_poison",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/plants"
+    },
+    {
+      "name": "Fiercepotion",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fiercepotion",
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Fiercepotionrecipa",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fiercepotionrecipa",
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Manacheck",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manacheck",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "Thermosteal",
+      "type": "armor",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermosteal",
+      "metadata": {
+        "eh": false,
+        "el": true,
+        "eb": false,
+        "ec": true
+      },
+      "path": "~/endgame/armors"
+    },
+    {
+      "name": "Msoarmors",
+      "type": "tab",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "msoarmors",
+      "path": "~/endgame/armors"
+    },
+    {
+      "name": "Hunter",
+      "type": "livingentity",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hunter",
+      "path": "~/endgame/mobs"
+    },
+    {
+      "name": "Archer",
+      "type": "armor",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archer",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      },
+      "path": "~/endgame/armors"
+    },
+    {
+      "name": "Mossyrunestone",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossyrunestone",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Mossyrunestonestairs",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossyrunestonestairs",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Mossyrunestoneslabs",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossyrunestoneslabs",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Runestonestairs",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runestonestairs",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Runestoneslab",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runestoneslab",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "ArcherBodyTickEvent",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archer_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/armors"
+    },
+    {
+      "name": "Mossyruins",
+      "type": "structure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossyruins",
+      "path": "~/endgame/structures"
+    },
+    {
+      "name": "Mossyruins2",
+      "type": "structure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossyruins_2",
+      "path": "~/endgame/structures"
+    },
+    {
+      "name": "Savesta",
+      "type": "armor",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savesta",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      },
+      "path": "~/endgame/armors"
+    },
+    {
+      "name": "Assasin",
+      "type": "livingentity",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assasin",
+      "path": "~/endgame/mobs"
+    },
+    {
+      "name": "SavestaBodyTickEvent",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savesta_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/armors"
+    },
+    {
+      "name": "Thornslogbow",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornslogbow",
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Msotools",
+      "type": "tab",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "msotools",
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "ThornslogbowPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornslogbow_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "ThornsswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornssword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Thornssword",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornssword",
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "SKULL",
+      "type": "armor",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skull",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      },
+      "path": "~/endgame/armors"
+    },
+    {
+      "name": "Thornsdagger",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornsdagger",
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "ThornsdaggerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornsdagger_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Manapotion",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manapotion",
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "ManapotionPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manapotion_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Manapotionrecipa",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manapotionrecipa",
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Manadust",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manadust",
+      "path": "~/endgame/items"
+    },
+    {
+      "name": "M1",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M3",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M2",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M4",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M5",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M6",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M7",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M8",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M9",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M10",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_10",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M11",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_11",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M12",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_12",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M13",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_13",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M14",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_14",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M15",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_15",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M16",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_16",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M17",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_17",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M18",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_18",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M19",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_19",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M20",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_20",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M21",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_21",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M22",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_22",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M23",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_23",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M24",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_24",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M25",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_25",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M26",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_26",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M27",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_27",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M28",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_28",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M29",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_29",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M30",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_30",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M31",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_31",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M32",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_32",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M33",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_33",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M34",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_34",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M35",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_35",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M36",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_36",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M37",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_37",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M38",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_38",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M39",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_39",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "M40",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_40",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "Manaregen",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manaregen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "Potloot",
+      "type": "loottable",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potloot",
+      "path": "~/endgame/blocks/functional"
+    },
+    {
+      "name": "ThornsdaggerRightclicked",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornsdagger_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Killingspree",
+      "type": "potioneffect",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killingspree",
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Pot",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pot",
+      "path": "~/endgame/blocks/functional"
+    },
+    {
+      "name": "Ivydaggerskillselect",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ivydaggerskillselect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "SKILLCHANGEOnKeyPressed",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skillchange_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "SKILLCHANGE",
+      "type": "keybind",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skillchange",
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "ThornslogbowEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornslogbow_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Thornslogbowskillselect",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornslogbowskillselect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "CleansocommandoCommandExecuted",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleansocommando_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "Cleansocommando",
+      "type": "command",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleansocommando",
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "Vine",
+      "type": "rangeditem",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vine",
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Thornsshield",
+      "type": "tool",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornsshield",
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Acidspear",
+      "type": "tool",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acidspear",
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Thornsshieldskillselect",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornsshieldskillselect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "Thornsshieldrightclick",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornsshieldrightclick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Shot",
+      "type": "rangeditem",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shot",
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Spearrange",
+      "type": "rangeditem",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spearrange",
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "SpearrangeWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spearrange_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "AcidspearEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acidspear_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Coralshallows",
+      "type": "biome",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coralshallows",
+      "path": "~/endgame/biomes"
+    },
+    {
+      "name": "Glazesand",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glazesand",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Submergedbricks",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "submerged_bricks_1",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Cleanseparticle",
+      "type": "particle",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleanseparticle",
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "Lootmossyruins",
+      "type": "structure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lootmossyruins",
+      "path": "~/endgame/structures"
+    },
+    {
+      "name": "Submergedbricks2",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "submergedbricks_2",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Submergedbricks3",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "submergedbricks_3",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Submergedbricksstairs1",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "submergedbricksstairs_1",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Submergedbricksstairs2",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "submergedbricksstairs_2",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Submergedbricksstairs3",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "submergedbricksstairs_3",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Submergedbricksslab1",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "submergedbricksslab_1",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Submergedbricksslab2",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "submergedbricksslab_2",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Submergedbricksslab3",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "submergedbricksslab_3",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "TestRangedItemUsed",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/pre-endgame/items"
+    },
+    {
+      "name": "Test",
+      "type": "rangeditem",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "path": "~/pre-endgame/items"
+    },
+    {
+      "name": "GlazesandBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glazesand_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "WeedgrasBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weedgras_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "SoilBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soil_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "JunglelogBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junglelog_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Sandyruins1",
+      "type": "structure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandyruins_1",
+      "path": "~/endgame/structures"
+    },
+    {
+      "name": "ShotWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shot_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Commandshot",
+      "type": "particle",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "commandshot",
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "Quickshieldparticle",
+      "type": "particle",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quickshieldparticle",
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "Fysh",
+      "type": "livingentity",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fysh",
+      "path": "~/endgame/mobs"
+    },
+    {
+      "name": "ManafishPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manafish_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/pre-endgame/items/not-functional"
+    },
+    {
+      "name": "Manafish",
+      "type": "item",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manafish",
+      "path": "~/endgame/items"
+    },
+    {
+      "name": "CleanseEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleanse_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Dispell",
+      "type": "potioneffect",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dispell",
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "DispellEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dispell_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "DispellOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dispell_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/effects"
+    },
+    {
+      "name": "Manadustrecipa",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manadustrecipa",
+      "path": "~/endgame/items"
+    },
+    {
+      "name": "Yeet",
+      "type": "plant",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeet",
+      "path": "~/endgame/plants"
+    },
+    {
+      "name": "Yeetfood",
+      "type": "item",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeetfood",
+      "path": "~/endgame/plants"
+    },
+    {
+      "name": "Yeetloot",
+      "type": "loottable",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeetloot",
+      "path": "~/endgame/plants"
+    },
+    {
+      "name": "Sgllimyi",
+      "type": "item",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sgllimyi",
+      "path": "~/endgame/items"
+    },
+    {
+      "name": "Pinkcoral",
+      "type": "block",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkcoral",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Jawfish",
+      "type": "livingentity",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jawfish",
+      "path": "~/endgame/mobs"
+    },
+    {
+      "name": "Coral1",
+      "type": "structure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coral_1",
+      "path": "~/endgame/structures"
+    },
+    {
+      "name": "Respsubbrick2",
+      "type": "block",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "respsubbrick_2",
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Respsubbrick2OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "respsubbrick_2_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/blocks"
+    },
+    {
+      "name": "Sohereweare",
+      "type": "achievement",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sohereweare",
+      "path": "~/endgame"
+    },
+    {
+      "name": "PrettyRaw",
+      "type": "achievement",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pretty_raw",
+      "path": "~/endgame"
+    },
+    {
+      "name": "Whereswater",
+      "type": "achievement",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whereswater",
+      "path": "~/endgame"
+    },
+    {
+      "name": "Moisty",
+      "type": "achievement",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisty",
+      "path": "~/endgame"
+    },
+    {
+      "name": "Ichy",
+      "type": "achievement",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ichy",
+      "path": "~/endgame"
+    },
+    {
+      "name": "Testitem",
+      "type": "item",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testitem",
+      "path": "~/endgame"
+    },
+    {
+      "name": "Ablessing",
+      "type": "achievement",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ablessing",
+      "path": "~/endgame"
+    },
+    {
+      "name": "Respruins",
+      "type": "structure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "respruins",
+      "path": "~/endgame/structures"
+    },
+    {
+      "name": "Livefish",
+      "type": "livingentity",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livefish",
+      "path": "~/endgame/mobs"
+    },
+    {
+      "name": "Fysh2",
+      "type": "item",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fysh_2",
+      "path": "~/endgame/items"
+    },
+    {
+      "name": "Fysh2PlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fysh_2_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/items"
+    },
+    {
+      "name": "Waterfall",
+      "type": "item",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterfall",
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Waterfallskillselecrt",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterfallskillselecrt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "Waterfallskills",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterfallskills",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "SWORDSLASH",
+      "type": "rangeditem",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordslash",
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "SWORDSLASHWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordslash_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/tools"
+    },
+    {
+      "name": "Absorb",
+      "type": "particle",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "absorb",
+      "path": "~/endgame/features"
+    },
+    {
+      "name": "WaterfallItemInHandTick",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterfall_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/tools"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Mana",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "50.0"
+    },
+    {
+      "name": "maxmp",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "200.0"
+    },
+    {
+      "name": "ivydaggerskillselect",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "thornslogbowskillselect",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "thornsshieldskillselect",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "commandshotcooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "waterfallskillselect",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "small_wastelander_hurt",
+      "files": [
+        "record1_online-audio-converter.com"
+      ],
+      "category": "voice",
+      "subtitle": "hurt1"
+    },
+    {
+      "name": "small_wastelander_live",
+      "files": [
+        "record1_online-audio-converter.com"
+      ],
+      "category": "hostile",
+      "subtitle": "live1"
+    },
+    {
+      "name": "cleanse",
+      "files": [
+        "skill_spell_cleanse_01_73"
+      ],
+      "category": "neutral",
+      "subtitle": "epic"
+    },
+    {
+      "name": "jungol",
+      "files": [
+        "cinematic-documentary-ambient-115668"
+      ],
+      "category": "music",
+      "subtitle": "jongolst"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.mso.skull_leggings": "SKULL Leggings",
+      "item.mso.fysh_2": "Life fish",
+      "advancements.moisty.descr": "Discover the ivy jungle",
+      "item.mso.savesta_leggings": "Thermosteal Greaves",
+      "item.mso.ivypotion": "Ivy potion",
+      "item.mso.scrap": "Scrap",
+      "item.mso.compacted_coal": "Compacted coal",
+      "item.mso.manadust": "Mana dust",
+      "item.mso.vine": "Vine",
+      "block.mso.crass_sand": "Crass sand",
+      "biome.mso.crassdesert": "Crass desert",
+      "block.mso.thorns": "Thorns",
+      "block.mso.soil": "Soil",
+      "item.mso.fysh_spawn_egg": "Fysh Spawn Egg",
+      "item.mso.raw_copper": "Raw copper",
+      "advancements.ichy.title": "OUCH!",
+      "item.mso.advancedsmelteryblueprint": "Advanced smeltery blueprint",
+      "block.mso.silica": "Silica",
+      "block.mso.respsubbrick_2": "Platinated-Copper Submerged bricks",
+      "block.mso.runestone": "Runestone",
+      "advancements.ablessing.descr": "That\u0027s some nice feeling, isn\u0027t it?",
+      "item.mso.coppe_rbar": "Copper Bar",
+      "item.mso.savesta_helmet": "Thermosteal Helmet",
+      "advancements.whereswater.descr": "You better don\u0027t eat that much yeet, or you will be dead.",
+      "item.mso.test": "Test",
+      "block.mso.runestoneslab": "Runestone slab",
+      "item.mso.spearrange": "Vine",
+      "block.mso.mossyrunestonestairs": "Mossy runestone stairs",
+      "block.mso.crass_rock": "Crass rock",
+      "itemGroup.tabmsoitems": "Mso: items",
+      "block.mso.pot": "Pot",
+      "advancements.sohereweare.descr": "Travel to the lyferia and start the cycle again",
+      "block.mso.star_platinum0_0": "Platinium ore",
+      "block.mso.submergedbricks_2": "Mana-Fused Submerged bricks",
+      "block.mso.submerged_bricks_1": "Sandy Submerged bricks",
+      "advancements.pretty_raw.title": "Pretty Raw",
+      "block.mso.mud": "Mud",
+      "block.mso.submergedbricks_3": "Platinated-Copper Submerged bricks",
+      "item.mso.thermosteal_helmet": "Thermosteal Helmet",
+      "key.mso.skillchange": "change skill",
+      "subtitles.small_wastelander_hurt": "hurt1",
+      "itemGroup.tabmsoarmors": "Mso: armors",
+      "item.mso.acidspear": "Ivy spear",
+      "subtitles.junglest": "jungul",
+      "item.mso.jawfish_spawn_egg": "Jawfish Spawn Egg",
+      "item.mso.fiercepotion": "Fierce potion",
+      "effect.cleanse": "Cleanse",
+      "itemGroup.tabmsoblocks": "Mso: blocks",
+      "item.mso.platinium_ingot": "Platinium ingot",
+      "item.mso.archer_chestplate": "Archer Equipment",
+      "block.mso.yeet": "Yeet",
+      "item.mso.yeetfood": "Yeet",
+      "biome.mso.weedplains": "Weedplains",
+      "effect.dispell": "Dispell",
+      "item.mso.thermosteal_chestplate": "Thermosteal Chestplate",
+      "item.mso.archer_leggings": "Thermosteal Greaves",
+      "item.mso.livefish_spawn_egg": "Fysh Spawn Egg",
+      "block.mso.submergedbricksstairs_1": "Sandy Submerged bricks stairs",
+      "block.mso.submergedbricksstairs_2": "Mana-Fused Submerged bricks stairs",
+      "subtitles.small_wastelander_live": "live1",
+      "block.mso.submergedbricksstairs_3": "Platinated-Copper Submerged bricks stairs",
+      "block.mso.maplelog": "Maple log",
+      "block.mso.copper_ore": "Copper ore",
+      "biome.mso.coralshallows": "coralshallows",
+      "entity.mso.fysh": "Fysh",
+      "item.mso.swordslash": "slash",
+      "effect.fireshield": "Fire Shield",
+      "item.mso.raw_platinium": "Raw Platinium",
+      "item.mso.archer_boots": "Thermosteal Boots",
+      "block.mso.dry_grass": "Dry Grass",
+      "block.mso.pinkcoral": "Pink coral",
+      "item.mso.small_wastelander_spawn_egg": " Wastelander small Spawn Egg",
+      "item.mso.archer_helmet": "Thermosteal Helmet",
+      "item.mso.skull_helmet": "Raven skull mask",
+      "block.mso.glazesand": "Glaze sand",
+      "item.mso.waterfall": "Waterfall",
+      "advancements.whereswater.title": "Where\u0027s water?",
+      "subtitles.jungol": "jongolst",
+      "advancements.moisty.title": "Moisty and Poisony",
+      "entity.mso.assasin": "Hunter",
+      "block.mso.submergedbricksslab_2": "Mana-Fused Submerged bricks slab",
+      "block.mso.weed_grass": "Weed grass",
+      "item.mso.thermosteal_boots": "Thermosteal Boots",
+      "block.mso.submergedbricksslab_1": "Sandy Submerged bricks slab",
+      "item.mso.fusedust": "Fuse dust",
+      "itemGroup.tabpotions": "Mso: Potions",
+      "block.mso.submergedbricksslab_3": "Platinated-Copper Submerged bricks slab",
+      "item.mso.minersheaven": "World seed",
+      "item.mso.steel_ingot": "Steel ingot",
+      "entity.mso.jawfish": "Jawfish",
+      "advancements.ablessing.title": "A Blessing from the lord!",
+      "block.mso.mossyrunestoneslabs": "Mossy runestone slab",
+      "item.mso.skull_boots": "SKULL Boots",
+      "item.mso.savesta_boots": "Thermosteal Boots",
+      "item.mso.skull_chestplate": "SKULL Body",
+      "subtitles.cleanse": "epic",
+      "block.mso.mossyrunestone": "Mossy runestone",
+      "effect.poisonresistance": "poison shield",
+      "entity.mso.livefish": "Fysh",
+      "item.mso.savesta_chestplate": "Assasin Vest",
+      "item.mso.sgllimyi": "Sgllimyi",
+      "item.mso.thornsdagger": "Acid Dagger",
+      "item.mso.shot": "Vine",
+      "block.mso.junglelog": "Ivy log",
+      "advancements.pretty_raw.descr": "Eat the yeet for the first time",
+      "block.mso.ivyleaves": "Ivy leaves",
+      "item.mso.manapotion": "Mana potion",
+      "biome.mso.ivyjungle": "Ivy jungle",
+      "entity.mso.hunter": "Hunter",
+      "item.mso.thornsshield": "Thorns shield",
+      "advancements.sohereweare.title": "Lyferia",
+      "itemGroup.tabmsoplants": "Mso: Plants",
+      "entity.mso.small_wastelander": " Wastelander small",
+      "item.mso.assasin_spawn_egg": "Hunter Spawn Egg",
+      "item.mso.testitem": "Testitem",
+      "itemGroup.tabmsotools": "Mso: tools",
+      "advancements.ichy.descr": "Pretty itchy, i should buy insurance",
+      "item.mso.hunter_spawn_egg": "Hunter Spawn Egg",
+      "item.mso.thornslogbow": "Thorns longbow",
+      "block.mso.smeltery": "Smeltery",
+      "block.mso.runestonestairs": "Runestone stairs",
+      "item.mso.thermosteal_leggings": "Thermosteal Greaves",
+      "item.mso.manafish": "Mana fish",
+      "item.mso.thornssword": "Thorns sword",
+      "block.mso.poisonivy": "Poison ivy",
+      "effect.killingspree": "Killing spree"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "pre-endgame",
+        "children": [
+          {
+            "name": "blocks",
+            "children": [
+              {
+                "name": "functional",
+                "children": [
+                  {
+                    "name": "smeltery",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "not_funtional",
+                "children": []
+              },
+              {
+                "name": "recipes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "items",
+            "children": [
+              {
+                "name": "not-functional",
+                "children": []
+              },
+              {
+                "name": "blueprints",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "biomes",
+            "children": []
+          },
+          {
+            "name": "entities",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "endgame",
+        "children": [
+          {
+            "name": "plants",
+            "children": []
+          },
+          {
+            "name": "biomes",
+            "children": []
+          },
+          {
+            "name": "blocks",
+            "children": [
+              {
+                "name": "functional",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "items",
+            "children": []
+          },
+          {
+            "name": "effects",
+            "children": []
+          },
+          {
+            "name": "features",
+            "children": []
+          },
+          {
+            "name": "structures",
+            "children": []
+          },
+          {
+            "name": "armors",
+            "children": []
+          },
+          {
+            "name": "mobs",
+            "children": []
+          },
+          {
+            "name": "tools",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mso",
+    "modName": "MSOCE",
+    "version": "1.0.0",
+    "author": "Paweł, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.mso",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

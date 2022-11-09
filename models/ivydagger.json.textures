@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "rootedplanls",
+        "1": "junglelog_side",
+        "2": "ivy_inside",
+        "3": "jungle_leaves"
+      },
+      "name": "default"
+    }
+  }
+}

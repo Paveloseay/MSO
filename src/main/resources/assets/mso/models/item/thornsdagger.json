@@ -1,0 +1,10 @@
+{
+  "parent": "mso:custom/ivydagger",
+  "textures": {
+    "0": "mso:blocks/rootedplanls",
+    "1": "mso:blocks/junglelog_side",
+    "2": "mso:blocks/ivy_inside",
+    "3": "mso:blocks/jungle_leaves",
+    "particle": "mso:items/thorns"
+  }
+}

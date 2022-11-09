@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mso:blocks/copper_ore",
+    "up": "mso:blocks/copper_ore",
+    "north": "mso:blocks/copper_ore",
+    "east": "mso:blocks/copper_ore",
+    "south": "mso:blocks/copper_ore",
+    "west": "mso:blocks/copper_ore",
+    "particle": "mso:blocks/copper_ore"
+  }
+}

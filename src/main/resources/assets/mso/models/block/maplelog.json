@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mso:blocks/maplelog_top",
+    "up": "mso:blocks/maplelog_top",
+    "north": "mso:blocks/maplelog_side",
+    "east": "mso:blocks/maplelog_side",
+    "south": "mso:blocks/maplelog_side",
+    "west": "mso:blocks/maplelog_side",
+    "particle": "mso:blocks/maplelog_top"
+  }
+}

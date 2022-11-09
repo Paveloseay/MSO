@@ -1,0 +1,19 @@
+{
+  "group": "manadost",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mso:manafish"
+    },
+    {
+      "item": "mso:pinkcoral"
+    },
+    {
+      "item": "mso:fusedust"
+    }
+  ],
+  "result": {
+    "item": "mso:manadust",
+    "count": 4
+  }
+}

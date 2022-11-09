@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Cleanse",
+    "icon": "cleanse.png",
+    "color": {
+      "value": -12574226,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "CleanseEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "CleanseOnEffectActiveTick"
+    }
+  }
+}

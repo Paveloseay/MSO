@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mso:blocks/jungle_leaves",
+    "up": "mso:blocks/jungle_leaves",
+    "north": "mso:blocks/jungle_leaves",
+    "east": "mso:blocks/jungle_leaves",
+    "south": "mso:blocks/jungle_leaves",
+    "west": "mso:blocks/jungle_leaves",
+    "particle": "mso:blocks/jungle_leaves"
+  }
+}

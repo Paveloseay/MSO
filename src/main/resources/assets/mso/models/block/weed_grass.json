@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "mso:blocks/soil",
+    "top": "mso:blocks/weedgrass",
+    "side": "mso:blocks/soil",
+    "overlay": "mso:blocks/weedgrass_side",
+    "particle": "mso:blocks/soil"
+  }
+}

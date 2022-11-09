@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "rootedplanls",
+        "1": "junglelog_side"
+      },
+      "name": "default"
+    }
+  }
+}

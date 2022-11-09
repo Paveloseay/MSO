@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "mso:blocks/submergedbricks",
+    "top": "mso:blocks/submergedbricks",
+    "side": "mso:blocks/submergedbricks"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "mso:custom/pot",
+  "textures": {
+    "all": "mso:blocks/mossy_runestone_bricks",
+    "particle": "mso:blocks/mossy_runestone_bricks",
+    "0": "mso:blocks/mossy_runestone_bricks",
+    "1": "mso:blocks/2",
+    "missing": "mso:blocks/"
+  }
+}

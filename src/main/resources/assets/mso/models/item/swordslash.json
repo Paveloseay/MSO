@@ -1,0 +1,7 @@
+{
+  "parent": "mso:custom/shortswordslash",
+  "textures": {
+    "0": "mso:blocks/waterfall2",
+    "particle": "mso:items/spearrange"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "junglelog_side"
+      },
+      "name": "default"
+    }
+  }
+}

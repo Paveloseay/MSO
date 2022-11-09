@@ -1,0 +1,36 @@
+{
+  "_fv": 28,
+  "_type": "structure",
+  "definition": {
+    "structure": "ivy_tree",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 1000000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -2,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:Minersheaven"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:Mud"
+      },
+      {
+        "value": "CUSTOM:Weedgras"
+      },
+      {
+        "value": "CUSTOM:Soil"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Ivyjungle"
+      }
+    ],
+    "ignoreBlocks": "AIR"
+  }
+}

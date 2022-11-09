@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mso:testitem"
+    },
+    "title": {
+      "translate": "advancements.ablessing.title"
+    },
+    "description": {
+      "translate": "advancements.ablessing.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ablessing": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "mso:sohereweare"
+}
