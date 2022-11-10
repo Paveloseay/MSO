@@ -23,7 +23,6 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.pathfinding.SwimmerPathNavigator;
 import net.minecraft.pathfinding.PathNodeType;
 import net.minecraft.network.IPacket;
-import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.passive.SquidEntity;
@@ -41,7 +40,6 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.mso.item.ManafishItem;
 import net.mcreator.mso.entity.renderer.JawfishRenderer;
 import net.mcreator.mso.MsoModElements;
 
@@ -146,22 +144,17 @@ public class JawfishEntity extends MsoModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, FyshEntity.CustomEntity.class, false, true));
-			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, LivefishEntity.CustomEntity.class, false, true));
-			this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, true));
-			this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ServerPlayerEntity.class, false, true));
-			this.targetSelector.addGoal(5, new HurtByTargetGoal(this).setCallsForHelp());
+			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, true));
+			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, ServerPlayerEntity.class, false, true));
+			this.targetSelector.addGoal(3, new HurtByTargetGoal(this).setCallsForHelp());
+			this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, FyshEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, LivefishEntity.CustomEntity.class, false, true));
 			this.goalSelector.addGoal(6, new RandomSwimmingGoal(this, 40, 40));
 		}
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.WATER;
-		}
-
-		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
-			super.dropSpecialItems(source, looting, recentlyHitIn);
-			this.entityDropItem(new ItemStack(ManafishItem.block));
 		}
 
 		@Override

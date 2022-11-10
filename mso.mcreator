@@ -2910,6 +2910,65 @@
         ]
       },
       "path": "~/endgame/tools"
+    },
+    {
+      "name": "Waterspirit",
+      "type": "livingentity",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterspirit",
+      "path": "~/endgame/mobs"
+    },
+    {
+      "name": "WaterspiritOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterspirit_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/mobs"
+    },
+    {
+      "name": "Rng",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rng",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/endgame/features"
     }
   ],
   "variable_elements": [
@@ -2954,6 +3013,12 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "1.0"
+    },
+    {
+      "name": "customrng",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -3095,6 +3160,7 @@
       "item.mso.sgllimyi": "Sgllimyi",
       "item.mso.thornsdagger": "Acid Dagger",
       "item.mso.shot": "Vine",
+      "item.mso.waterspirit_spawn_egg": "Water Spirit Spawn Egg",
       "block.mso.junglelog": "Ivy log",
       "advancements.pretty_raw.descr": "Eat the yeet for the first time",
       "block.mso.ivyleaves": "Ivy leaves",
@@ -3109,6 +3175,7 @@
       "item.mso.testitem": "Testitem",
       "itemGroup.tabmsotools": "Mso: tools",
       "advancements.ichy.descr": "Pretty itchy, i should buy insurance",
+      "entity.mso.waterspirit": "Water Spirit",
       "item.mso.hunter_spawn_egg": "Hunter Spawn Egg",
       "item.mso.thornslogbow": "Thorns longbow",
       "block.mso.smeltery": "Smeltery",
